@@ -3,14 +3,6 @@
 **Course:** Deep Learning  
 **Final Grade:** 17.5
 
-
-
-
-
-
-
-
-
 **Group:** 
   - Ricardo Rodrigues (rf-rodrigues95)
   - Guilherme Antunes (gpantunes)
