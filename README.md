@@ -5,6 +5,13 @@
 
 This project provides hands-on experience with deep reinforcement learning (RL) by training an agent to play a variant of the Snake game. The focus is on experimenting with different scenarios, training approaches, and understanding what helps the agent learn effectively.
 
+## Repository Structure
+
+- ./project2.ipynb # Jupyter notebook for all tasks(say this better)
+- /environment/ # Jupyter notebooks and source code for CNN development
+- /Task3/ # Jupyter notebooks and source code for transfer learning and fine-tuning
+- /report/ # Final comprehensive report covering all tasks (PDF)
+
 ---
 
 ## Game Overview and Setup
