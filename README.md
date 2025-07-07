@@ -27,7 +27,6 @@ The effect depends on the current direction of the snake.
 
 You can customize the game board when initializing `SnakeGame`:
 
-```python
 SnakeGame(
   width,               # Width of free region on the board
   height,              # Height of free region on the board
