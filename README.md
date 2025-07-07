@@ -78,11 +78,6 @@ $$
 - Implement a heuristic policy to generate better training examples.
 - Training constrained to 4 hours.
 
-**Deliverables:**
-
-- Code.
-- Brief report on architecture, loss, training results, heuristic baseline.
-
 ---
 
 ### 2. Enhanced DQN with Experience Replay and Target Network
@@ -91,12 +86,6 @@ $$
 - Implement a target network updated every ~100 steps.
 - Integrate replay buffer into training loop.
 - Experiment with buffer sizes and update strategies.
-
-**Deliverables:**
-
-- Updated code.
-- Comparative report including replay buffer and target network impact.
-- Learning curve visualizations.
 
 ---
 
