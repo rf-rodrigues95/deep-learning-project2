@@ -2,6 +2,7 @@
 **NOVA School of Science and Technology (NOVA FCT) – 2024/2025**  
 **Course:** Deep Learning  
 **Final Grade:** 17.5 
+
 **Group:** 
   - Ricardo Rodrigues (rf-rodrigues95)
   - Guilherme Antunes (gpantunes)
