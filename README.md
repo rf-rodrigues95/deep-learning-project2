@@ -41,7 +41,7 @@ SnakeGame(
 
 ## Reinforcement Learning Components
 
-## Deep Q-Network (DQN)
+### Deep Q-Network (DQN)
 
 - **Inputs:** State images of the game board.
 - **Outputs:** Q-values for each possible action.
