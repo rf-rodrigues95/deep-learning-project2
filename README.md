@@ -35,7 +35,7 @@ SnakeGame(
   border,            # Border thickness (gray cells)
   grass_growth,      # Growth rate of grass per step
   max_grass          # Max grass per location
-) ```
+) ```python
 
 # Reinforcement Learning Components
 
