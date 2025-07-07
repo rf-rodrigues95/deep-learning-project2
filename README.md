@@ -36,3 +36,79 @@ SnakeGame(
   grass_growth,      # Growth rate of grass per step
   max_grass          # Max grass per location
 )
+
+# Reinforcement Learning Components
+
+## Deep Q-Network (DQN)
+
+- **Inputs:** State images of the game board.
+- **Outputs:** Q-values for each possible action.
+- **Loss:** Q-learning loss using the Bellman equation:
+
+$$
+\text{Loss} = \left( r + \gamma \max_{a'} Q(s', a') - Q(s, a) \right)^2
+$$
+
+Training incorporates experience replay and target networks for stability.
+
+---
+
+## Exploration Strategies
+
+Two exploration methods should be implemented and compared:
+
+- **Epsilon-Greedy:**  
+  Action with highest Q-value chosen with probability \(1 - \epsilon\), random action with probability \(\epsilon\). Epsilon decays over time.
+
+- **Boltzmann Exploration:**  
+  Actions selected probabilistically via softmax over Q-values with temperature parameter \(T\):
+
+$$
+P(a_i) = \frac{\exp(Q(a_i) / T)}{\sum_j \exp(Q(a_j) / T)}
+$$
+
+---
+
+## Project Tasks
+
+### 1. Basic DQN Implementation
+
+- Build a convolutional neural network suitable for processing board images.
+- Implement the Q-learning loss.
+- Train the agent without experience replay or target networks.
+- Implement a heuristic policy to generate better training examples.
+- Training constrained to 4 hours.
+
+**Deliverables:**
+
+- Code.
+- Brief report on architecture, loss, training results, heuristic baseline.
+
+---
+
+### 2. Enhanced DQN with Experience Replay and Target Network
+
+- Implement an experience replay buffer (capacity ≤ 10,000).
+- Implement a target network updated every ~100 steps.
+- Integrate replay buffer into training loop.
+- Experiment with buffer sizes and update strategies.
+
+**Deliverables:**
+
+- Updated code.
+- Comparative report including replay buffer and target network impact.
+- Learning curve visualizations.
+
+---
+
+### 3. Exploration Strategies Comparison
+
+- Implement and test epsilon-greedy with different decay schedules.
+- Implement and test Boltzmann exploration with temperature scheduling.
+- Compare both on:
+  - Learning efficiency.
+  - Final performance.
+  - Exploration behavior.
+  - Stability.
+  - Hyperparameter sensitivity.
+
