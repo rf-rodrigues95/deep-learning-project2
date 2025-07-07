@@ -1,4 +1,5 @@
-# Project 2: Deep Reinforcement Learning for Snake Game
+# Deep Learning Project: Deep Reinforcement Learning for Snake Game  
+**NOVA School of Science and Technology (NOVA FCT) – 2024/2025** 
 
 ## Objective
 
