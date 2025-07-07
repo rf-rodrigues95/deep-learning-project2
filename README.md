@@ -7,9 +7,9 @@ This project provides hands-on experience with deep reinforcement learning (RL) 
 
 ## Repository Structure
 
-- ./project2.ipynb # Main Jupyter notebook that walks through the implementation, training, and evaluation of all project tasks. Serves as the central script for experimentation and results.
-- /environment/ #  Python source files for the Snake game (snake_game.py) and a demo/test runner (game_demo.py). These define and initialize the game environment used during training and evaluation.
-- /report/ # Final comprehensive report covering all tasks (PDF)
+- ** ./project2.ipynb ** # Main Jupyter notebook that walks through the implementation, training, and evaluation of all project tasks. Serves as the central script for experimentation and results.
+- ** /environment/ ** # Python source files for the Snake game (snake_game.py) and a demo/test runner (game_demo.py). These define and initialize the game environment used during training and evaluation.
+- ** /report/ ** # Final comprehensive report covering all tasks (PDF)
 
 ---
 
