@@ -28,12 +28,12 @@ The effect depends on the current direction of the snake.
 You can customize the game board when initializing `SnakeGame`:
 
 SnakeGame(
-  width,               # Width of free region on the board
-  height,              # Height of free region on the board
-  food_amount,       # Number of food items
-  border,            # Border thickness (gray cells)
-  grass_growth,      # Growth rate of grass per step
-  max_grass          # Max grass per location
+  - width,               # Width of free region on the board
+  - height,              # Height of free region on the board
+  - food_amount,       # Number of food items
+  - border,            # Border thickness (gray cells)
+  - grass_growth,      # Growth rate of grass per step
+  - max_grass          # Max grass per location
 )
 
 ### Reinforcement Learning Components
