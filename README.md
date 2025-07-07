@@ -37,7 +37,9 @@ SnakeGame(
   - max_grass          # Max grass per location
 )
 
-# Reinforcement Learning Components
+---
+
+## Reinforcement Learning Components
 
 ## Deep Q-Network (DQN)
 
